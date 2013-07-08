@@ -23,7 +23,7 @@ post '/submit' do
   @account = @client.account
   @sms = @account.sms.messages.create({
     :from => '+13475351163', 
-    :to => '+16462837437',
+    :to => '+919209778432',
     :body => @message
   })
   
